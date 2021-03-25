@@ -7,6 +7,7 @@ RUN apt-get install -y nginx
 #COPY default /etc/nginx/sites-enabled/default
 COPY 22.txt /var/www/html/22.txt
 COPY 33.txt /var/www/html/33.txt
+COPY ayal.txt /var/www/html/ayal.txt #I added this 
 
 #these four commands run the same thing 
 #CMD ["/usr/sbin/nginx", "-g", "daemon off;"]

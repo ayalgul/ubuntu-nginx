@@ -16,7 +16,7 @@ COPY ayal.txt /var/www/html/ayal.txt #I added this
 
 #CMD /usr/sbin/nginx -g daemon off 
 
-ENTRYPOINT /usr/sbin/nginx -g daemon off 
+#ENTRYPOINT /usr/sbin/nginx -g daemon off 
 
 #shutsdown after 60 minutes 
 #CMD shutdown -P +60
